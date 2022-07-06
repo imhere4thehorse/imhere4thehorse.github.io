@@ -1,0 +1,86 @@
+#mybar{
+  margin: 0;
+  padding: 0;
+  font-family: 'Ariel',serif;
+  font-size: 20;
+
+}
+
+.nav {
+  background-color: #595959;
+  color: #ffffff;
+  list-style: none;
+  text-align: center;
+  padding: 20px 0 20px 0;
+
+}
+
+.nav > li{
+  display: inline-block;
+  padding: 0 25px 0 25px;
+}
+.nav > li > a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#logo{
+  text-align: center;
+  font-size: 30;
+}
+
+#myear{
+  text-align: center;
+  font-size: 20;
+  padding: 20px 160px 20px 160px;
+}
+#myIntro{
+  padding: 20px 160px 20px 160px;
+  font-size: 20;
+}
+#myback{
+  padding: 20px 160px 20px 160px;
+  font-size: 20;
+}
+#myissues{
+  padding: 20px 160px 20px 160px;
+  font-size: 20;
+}
+#myresults{
+  padding: 20px 160px 20px 160px;
+  font-size: 20;
+}
+#myop{
+  padding: 20px 160px 20px 160px;
+  font-size: 20;
+}
+
+#mysum{
+  padding: 20px 160px 20px 160px;
+  font-size: 20;
+}
+#myref{
+  padding: 20px 160px 20px 160px;
+  font-size: 20;
+}
+#myappe{
+  padding: 20px 160px 20px 160px;
+  font-size: 20;
+}
+
+#pic{
+  text-align: center;
+}
+img {
+    width: 50%;
+    height: auto;
+}
+
+
+footer{
+  width: 100%;
+  background-color: #595959;
+  text-align: center;
+  color: #ffffff;
+  padding: 25px 25px 25px 25px;
+}
