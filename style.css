@@ -21,7 +21,7 @@
 }
 .nav > li > a{
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 
 #logo{
@@ -79,8 +79,8 @@ img {
 
 footer{
   width: 100%;
-  background-color: #7B68EE;
+  background-color: #E6E6FA;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   padding: 25px 25px 25px 25px;
 }
