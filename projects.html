@@ -41,6 +41,57 @@
   applying a Graph Convolutional Network to predict the labels directly.
   <br>
   The link to this project is coming soon! For now, you can take a look at my <a href="https://docs.google.com/document/d/179NqoEGzV2YxUTA-T5bddfTYoIxB_r25G7bucOqTB6o/edit?usp=sharing"> work log</a>!</p>
+  <br>
+  <span class="bolded">Data Structures and Algorithms Final Project: Predator and Prey Path Simulation
+   <br>
+  <object width="600" height="830" data="dsa.pdf"></object>
+  <br>
+   
+  README:
+  Our final utilized Dijkstra's Algorithm to create a predator and prey simulation where the predator and the prey 
+  have the goal of finding the shortest path to their target. In the simulation, the goal of the predator is to catch 
+  the predator while the goal of the predator is to escape the predator. The predator can catch the prey when their indexes and 
+  nodes are the same–indicating that they are at the same place at the same time–while the prey can successfully evade the predator 
+   when the prey reaches their target node. In the case that the predator reaches the prey when the prey reaches their target node, 
+   we programmed the simulation so that the predator can successfully catch the prey in that scenario. 
+
+  For the default, we set the predator location to be on the node (0,9) and the prey location to be on node (0,0) to try and make the 
+  chances of success for both predator and prey as fair as possible. The graph where the simulation takes place is a 10x10 grid graph, 
+  which can be adjusted according to the user’s preference by adjusting the number in G = nx.grid_2d_graph(10, 10) and pos = {(i, j): 
+  (i, j) for i in range(10) for j in range(10)}.
+
+	In the predator and prey class, Dijkstra's Algorithm was implemented so the predator and prey could calculate their shortest path. 
+ The experiment begins with the four methods: simulation1(), simulation2(), simulation3(), and simulation4(). This provides the results 
+ when you experiment with only one prey and one predator. 
+	
+	We attempted a situation where you could experiment with 5 predator and 5 prey at the same time, 
+ which was sim1(). We planned to have a sim2(), sim3(), and sim4() to be very similar to simulation1(), simulation2(), 
+ simulation3(), and simulation4(). Due to time constraints, we unfortunately weren’t able to complete this feature, 
+ but the code is still visible at the bottom of the .ipynb file.
+
+	Notice how in all 4 simulations, there is a label for ‘1’, ‘2’, ‘3’, and ‘4’. Each number 
+ represents a different combination of predator and prey strategies:
+
+	1	PREDATOR STRATEGY: Set the predator's target as the prey's target
+PREY STRATEGY: Set the prey's target to a random node in the graph
+
+	2	PREDATOR STRATEGY: Set the predator's target as the prey's target
+PREY STRATEGY: Set the prey's target to the node furthest from the predator
+
+	3	PREDATOR STRATEGY: Set the predator's target to the prey's next node
+PREY STRATEGY: Set the prey's target to a random node in the graph
+
+	4	PREDATOR STRATEGY: Set the predator's target to the prey's next node
+PREY STRATEGY: Set the prey's target to the node furthest from the predator
+
+
+To use the program, please run through all the cells. If you want to experiment with the different simulations, 
+ then please run the methods first before you run the cell where you call the methods. Occasionally, it can take a second for the 
+experiment to run, so if you see ‘In[*]’, you should stop the cell from running with the stop button and rerun the cell with the 
+methods before running the cell where the method is called. 
+
+We hope you enjoy this experiment. 
+   
 </article>
  
   <article>
